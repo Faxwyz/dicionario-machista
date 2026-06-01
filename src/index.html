@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Prototipo</title>
 </head>
-<body class="min-h-screen flex flex-col bg-gray-50">
+<body class="min-h-screen flex flex-col bg-1">
     <header>
         <div class="flex relative bg-1 shadow-lg w-full px-4 md:px-20 py-4">
             <div class="text-white">
-                <a href="#">
+                <a href="index.html">
                     <h1 class="px-4 font-bold text-xl">Glossário da misoginia</h1>
                 </a>
             </div>
@@ -23,54 +23,146 @@
             <div class="items-end flex-1 text-white font-bold hidden md:flex">
                 <nav class="flex-1">
                     <ul class="flex justify-end flex-1 items-center gap-6">
-                        <li><a href="#" class="hover:text-gray-200">Jogar</a></li>
-                        <li><a href="#" class="hover:text-gray-200">Sobre o jogo</a></li>
-                        <li><a href="#" class="hover:text-gray-200">Contato</a></li>
+                        <li><a href="index.html" class="hover:text-gray-200">Jogar</a></li>
+                        <li><a href="ref.html" class="hover:text-gray-200">Referências</a></li>
+                        <li><a href="sobre.html" class="hover:text-gray-200">Sobre o jogo</a></li>
+                        <li><a href="#contato" class="hover:text-gray-200">Contato</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <main class="flex-1 flex justify-center items-start py-10 bg-1">
+    <main class="flex-1 flex justify-center items-start py-2 bg-1 text-2xl">
         <div class="container w-full max-w-4xl flex flex-col items-center px-4">
         
-        <div class="text-center mb-20">
+        <div class="text-center mb-2 mt-4">
             <h2 class="text-3xl md:text-4xl font-bold text-2 text-800 mb-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscin...
+                Glossário da Misoginia
             </h2>
-            <p class="text-lg text-5 text-600 mb-4">
-                Clique em uma carta abaixo que possua alguma semelhança entre a palavra tema.
+            <p class="text-4 mb-4">
+                Escreva a palavra do dia e descubra o significado de termos relacionados à misoginia. Teste seus conhecimentos e aprenda mais sobre esse importante tema.
             </p>
-            <!-- IMAGEM ESCRITÓRIO -->
-            <img  src="como-ter-um-escritorio-inteligente.jpg" alt="Ilustração da palavra" class="w-full h-40 object-cover rounded-lg mb-4">
-        
-        </div>
-        <div class="container w-full max-w-4xl flex flex-wrap justify-center gap-6 px-4">
-            <div class="bg-2 w-64 p-4 border border-gray-300 rounded-xl shadow-md flex flex-col items-center justify-start hover:shadow-lg transition-shadow">
-    
-    <img 
-        src="67.png" 
-        alt="Ilustração da palavra" 
-        class="w-full h-40 object-cover rounded-lg mb-4"
-    >
-    
-    <p class="text-4 text-xl font-semibold text-center">Palavra 1</p>
-    
-</div>
-            <div class="bg-2 w-64 p-6 border border-gray-300 rounded-xl shadow-md flex flex-col items-center justify-center hover:shadow-lg transition-shadow">
-                <p class="text-4 text-xl font-semibold">Palavra 1</p>
-            </div>
-
-            <div class="bg-2 w-64 p-6 border border-gray-300 rounded-xl shadow-md flex flex-col items-center justify-center hover:shadow-lg transition-shadow">
-                <p class="text-4 text-xl font-semibold">Palavra 2</p>
-            </div>
-
-             <div class="bg-2 w-64 p-6 border border-gray-300 rounded-xl shadow-md flex flex-col items-center justify-center hover:shadow-lg transition-shadow">
-                <p class="text-4 text-xl font-semibold">Palavra 3</p>
-            </div>
             
         </div>
+        <div class="flex flex-col items-center justify-center gap-4 p-4">
+    
+    <div class="grid grid-cols-6 gap-2 w-full">
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-3 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-2">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 cursor-pointer"> 
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-3 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-2 ring-2 ring-2">
+             <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 animate-pop">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-3 rounded-lg flex items-center justify-center text-2xl font-bold uppercase text-1 bg-2 cursor-pointer"> 
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 ring-2 ring-2">
+             <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-3 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-2">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-3 focus:outline-none letter-input">
+        </div>
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 cursor-pointer"> 
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 ring-2 ring-2">
+             <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500 animate-pop">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+        <div class="w-18 h-18 md:w-20 md:h-20 border-6 border-green-600 rounded-lg cursor-pointer flex items-center justify-center text-2xl font-bold uppercase text-1 bg-green-500">
+            <input type="text" maxlength="1" class="w-18 h-18 text-center text-2xl font-bold uppercase rounded-lg focus:border-b-8 focus: border-green-600 focus:outline-none letter-input">
+        </div>
+    </div>
+
+</div>
+
+        </div>
+
     </main>
+    <footer
+        class="bg-1 text-white text-center py-4 mt-2" id="contato">
+        <p>&copy; 2026 Glossário da Misoginia.</p>
+    </footer>
+
+<div id="modal-acerto" class="fixed inset-0 bg-black/60 hidden flex items-center justify-center p-4 z-50 backdrop-blur-xs transition-all duration-300">
+    
+    <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden flex flex-col transform scale-100">
+        
+        <div class="bg-green-600 p-6 text-center text-white shadow-lg">
+            <h3 class="text-3xl font-bold mb-1">Você Acertou! 🎉</h3>
+            <p class="text-white">A expressão de hoje era <strong class="uppercase text-white">"RODADA"</strong>.</p>
+        </div>
+
+        <div class="p-6 bg-1">
+            <p class="text-4 text-center mb-6">
+                Contextualização sobre a palavras do dia...
+            </p>
+
+            <div class="bg-white border border-thin border-black rounded-xl p-4 flex gap-4 items-center">
+                <img 
+                    src="descolonizando.jpg" 
+                    alt="descolonizando-afetos" 
+                    class="w-20 h-auto rounded shadow-sm object-cover"
+                >
+                <div class="text-left">
+                    <span class="text-xs font-bold tracking-wider uppercase">Para se aprofundar</span>
+                    <h4 class="text-lg font-bold text-gray-800 leading-tight mt-1">Descolonizando Afetos</h4>
+                    <p class="text-sm text-gray-600 mt-1">Geni Núñez</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-1 p-6 pt-0 text-center">
+            <button id="btn-fechar-modal" class="bg-3 text-white font-bold py-3 px-8 rounded-lg hover:bg-3 hover:scale-105 transition-all w-full">
+                Continuar Jogando
+            </button>
+        </div>
+        
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
